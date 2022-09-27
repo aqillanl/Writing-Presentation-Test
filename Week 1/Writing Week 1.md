@@ -40,7 +40,8 @@ yang pertama yaitu membuat perubahan terhadap file yang ada di dalam directory, 
 - git branch -b [nama branch] digunakan untuk membuat branch baru
 - git checkout digunakan untuk berpindah branch
 - git merge digunakan untuk menggabungkan branch cabang ke branch master ( git merge origin/(nama branch))
-
+![Img.jpg](img/commandcmd.jpg)
+    -contoh penggunaan
 ## HTML
 - HTML adalah singkatan dari Hypertext Markup Language. HTML digunakan untuk menampilkan konten pada browser. Contoh konten yang dapat ditampilkan seperti Text, Image, Video, Link, dan masih banyak lainnya.
 - Tools yang dibutuhkan untuk membuat HTML Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML Browser dan Code Editor.
@@ -213,6 +214,18 @@ h1 {
 
 ### FLEXBOX
 - Flexbox adalah bagaimana cara kita untuk mengatur layout, Flexbox memiliki kemampuan untuk menyesuaikan layout secara otomatis.
+- contoh flexbox
+    - flex-direction digunakan untuk mengatur letak item child.
+    - Flex-secara default akan membuat tata letak item children dalam 1 line saja. flex akan menyesuaikan space yang ada.
+    - properti flex-flow digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap bersamaan.
+    - properti order pada flex adalah berfungsi untuk ordering item mana yang ingin kita atur posisinya berdasarkan urutan order.
+    - properti justify-content digunakan untuk mengatur tata letak dan space antar item child secara horizontal atau main axis.
+    - properti align-items digunakan untuk mengatur align dari item child secara vertikal atau cross axis.
+    - properti align-self digunakan untuk mengatur align item pada masing-masing item.
+    - align-content digunakan untuk mengatur tata letak dan space antar item child secara vertikal atau cross axis.
+    - properti flex-grow dapat mengatur size suatu item child pada flexbox.
+    - flex-shrink adalah properti yang membuat size suatu item child mengecil secara relatif terhadap item child yang lainnya.
+    - flex-basis adalah properti yang sama fungsinya seperti width.
 - Contoh Penggunaan Flexbox
 - index.html
 ```html
@@ -251,6 +264,7 @@ h1 {
 
 ## Algorithm and Pseudocode
 - Apa itu Algoritma, Algoritma adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. 
+- Data Structures atau struktur data merupakan teknik khusus untuk mengatur dan menyimpan data di komputer sedemikian rupa sehingga kita dapat melakukan operasi pada data yang disimpan dengan lebih efisien.Manfaat dari algoritma memudahkan kita dalam proses menyelesaikan permasalahan melalui bahasa pemrograman dan membuat program kita menjadi lebih efisien.
 - Kenapa harus mempelajari algotima :
   - Pemrograman merupakn algoritma dan struktur data,
   - Data struktur dgunakan untk mngelola sebuah data,
