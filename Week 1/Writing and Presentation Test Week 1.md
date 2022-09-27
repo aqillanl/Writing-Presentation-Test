@@ -5,7 +5,7 @@
 - Command Line Interface, jenis shell yang berbasis teks- Command Line merupakan sebutan untuk shell yang berbasis teks 
 - Command Line Interface adalah mekanisme interaksi dengan sistem operasi atau perangkat lunak komputer dengan mengetikkan perintah untuk menjalankan tugas tertentu. Contohnya sh, bash, zsh, dan cmd.
 ### a. Navigasi menggunakan CLI
-- Filesystem :
+- Filesystem : <br />
 Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system,
 Sistem operasi Windows & Unix-like menyusun file dan direktori menggunakan struktur yang bentuknya mirip tree.
 - Pwd (Print working directory) yaitu, Command untuk melihat current working directory 
@@ -28,9 +28,9 @@ Contoh tempat penyimpanan git repository adalah Github, Gitlab, Bitbucket
 yang pertama yaitu membuat perubahan terhadap file yang ada di dalam directory, directory ini disebut Working Directory, perubahan tersebut dapat berupa Penambahan, Memodifikasi dan Menghapus file. Yang kedua menyiapkan perubahan yang siap “disimpan”.Tahap ini disebut tahap Draft, didalam git istilah tersebut adalah “Staging”,files yang telah kita tambah,hapus atau modifikasi tidak akan langsung tersimpan kita harus menambahkan ke staging area. Yang ketiga adalah menyimpan draft perubahan yang kita buat,perubahan yang kita simpan disebut Commit.
 ### Command pada git
 - Konfigurasi git  
-  git config --global user.name "aqillanl"
+  git config --global user.name "aqillanl" <br />
   git config --global user.email "aqilla.x.rpl3@gmail.com" 
-- Membuat Repository 
+- Membuat Repository <br />
   git init (dilakukan didalam folder yang dibuat) 
 - git Status digunakan untuk melihat apakah terjadi perubahan atau tidak pada Git 
 - git add untuk menambah file baru/file yang telah diubah pada Git  
@@ -46,7 +46,7 @@ yang pertama yaitu membuat perubahan terhadap file yang ada di dalam directory, 
 - Tools yang dibutuhkan untuk membuat HTML Ada 2 tools utama yang harus dipersiapkan untuk membuat HTML Browser dan Code Editor.
 Contoh  code editor yaitu Visual Studio Code, Visual Studio Code adalah code editor yang dikembangkan oleh tim engineer Microsoft.
 ### 1.	HTML Structure
-``` 
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -64,16 +64,16 @@ Contoh  code editor yaitu Visual Studio Code, Visual Studio Code adalah code edi
 </html>
 ```
 
-- HTML Element terdiri atas opening tag, content, dan closing tag 
-Opening Tag :  `` <p> ``
-Content     : Hello World 
+- HTML Element terdiri atas opening tag, content, dan closing tag <br /> 
+Opening Tag :  `` <p> ``<br />
+Content     : Hello World <br />
 Closing Tag : `` </p> ``
 - HTML Attributes : properties dari sebuah element HTML. Contohnya yaitu id,class,name
-- Single Tag atau singular tag 
-``<br/>``  
-`` <hr/> `` 
+- Single Tag atau singular tag <br />
+``<br/>``  <br />
+`` <hr/> `` <br />
 `` <img src= " " alt= " "/>``
-- Paired Tag atau double Tag 
+- Paired Tag atau double Tag <br />
 ``<h1> </h1>``
 - HTML Comment digunakan untuk memberi keterangan pada suatu line code `` <!--  --> ``
 ### 2.	HTML Tag popular
@@ -296,12 +296,12 @@ Write (luas);
   - Recursive  : Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function.
 
 ## Intro To Java Script
-- Apa itu Javascript
+- Apa itu Javascript <br />
 Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website.Javascript juga dapat membuat website menjadi interaktif dan dinamis.
 - Bagaimana menjalankan Javascript,Javascript dijalankan melalui browser pada device setiap user.
   ### 1. Tipe Data Java Script
   Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming.
-- Tipe data ;
+- Tipe data ; 
     - number, Tipe data number adalah tipe data yang mengandung semua angka termasuk angka desimal.
     contoh :
     ```javascript
@@ -333,14 +333,14 @@ Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk lo
     };
     ```
   ### 2. Operator pada Java Script
-- Arithmetic Operator
+- Arithmetic Operator <br />
 Arithmetic operator adalah operator yang melibatkan operasi matematika.
     - Tambah (+),
     - Kuramg (-),
     - Perkalian (*),
     - Pembagian (/),
     - Modulus (%).
-- Comparison Operator
+- Comparison Operator <br />
 Comparison operator adalah operator yang membandingkan satu nilai dengan nilai lainnya.
     - Lebih kecil dari (<),
     - Lebih besar dari (>),
@@ -348,13 +348,13 @@ Comparison operator adalah operator yang membandingkan satu nilai dengan nilai l
     - Lebih besar atau sama dengan (>=),
     - Sama dengan (===),
     - Tidak sama dengan (!==).
-- Logical Operator
+- Logical Operator <br />
 Logical operator biasa digunakan untuk sebuah CONDITIONAL pada pemograman.
     - AND operator (&&),
     - OR operator (||),
     - NOT operator (!).
   ### 3. control flow 
-- Conditional
+- Conditional <br />
 Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
 - Contoh Conditional 
     - IF Statement
@@ -373,7 +373,7 @@ Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
       console.log("lapar");
     }
     ```
-    - IF … ELSE IF Statement
+    - IF … ELSE IF Statement <br />
     Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.
     ```javascript
     if (time < 10) {
@@ -384,7 +384,7 @@ Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
         greeting = "Good evening";
     }
     ```
-    - Switch Case Conditional
+    - Switch Case Conditional <br />
     Gunakan switch case jika kondisi dan percabangan terlalu banyak
     ```javascript
     let tombol1 = 2;
@@ -406,17 +406,17 @@ Conditional merupakan statement percabangan yang menggambarkan suatu kondisi.
         console.log("channel tidak ditemukan");
     }
     ```
-- Looping
+- Looping <br />
 Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
 - contoh looping
-    - For
+    - For <br />
     FOR LOOP merupakan instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan.
     ```javascript
     for (let i = 1; i <= 10; i++) {
       console.log(i);
     }
     ```
-    - While
+    - While <br />
     WHILE LOOP akan menjalankan instruksi pengulangan kondisi bernilai TRUE.
     ```javascript
     let i = 1;
@@ -425,7 +425,7 @@ Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuh
       i++;
     }
     ```
-    - Do While 
+    - Do While <br />
     Pengulangan 1 kali sebelum dilakukan pengecekan kondisi.
     ```javascript
     let i = 1;
