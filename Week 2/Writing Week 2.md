@@ -93,7 +93,7 @@ const greeting = (a, b) => {
     - Error
 #### b. Prototype & Method
 - Data Type Built-in - String
-  deretan karakter yang diapit oleh sepasang tanda kutip (" "), berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks
+  <br> deretan karakter yang diapit oleh sepasang tanda kutip (" "), berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks
     - Properties
      1. Constructor
         Mengembalikan fungsi yang dibuat string prototipe objek
@@ -136,12 +136,12 @@ const greeting = (a, b) => {
          ```
      4. toLowerCase()
          <br> Ubah string menjadi huruf kecil
-         ```
+         ```javascript
          const str = 'AQILLA';
          console.log(str.toLowerCase()); //Output: aqilla
          ```
 - Data Type Built-in - number 
-  bilangan bulat, pecahan, dan lain-lain yang berbentuk angka
+  <br> bilangan bulat, pecahan, dan lain-lain yang berbentuk angka
   - Properties (jarang digunakan, kebanyakan menggunakan methods number)
   - Method
     1. toString()
@@ -158,8 +158,8 @@ const greeting = (a, b) => {
         console.log(Number(myString)); //Output: 1932
         ```
 - Data Type Built-in - Math
-mempermudah dalam perhitungan matematika
-contoh :
+<br> mempermudah dalam perhitungan matematika
+<br> contoh :
 ```javascript
 Math.pi //Output: 3.1415
 Math.LOG2E //Output: 1.4426
