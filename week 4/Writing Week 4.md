@@ -52,6 +52,24 @@ const run = async (condition) => {
 
 run(true);
 ```
+### **GitHub Lanjutan**
+#### Inviting collaborators to a personal repository
+1. Menuju halaman navigasikan ke halaman utama repositori.
+2. Click Setting
+3. Kemudian pilih Access collaborators 
+4. Click Invite a collaborator.
+5. Setelah itu ketik nama orang yang ingin Anda undang, lalu klik nama di daftar kecocokan.
+6. Click Add NAME to REPOSITORY.
+7. Pengguna akan menerima email yang mengundang mereka ke repositori. Setelah mereka menerima undangan Anda, mereka akan memiliki akses kolaborator ke repositori Anda.
+
+#### Maintaining ownership continuity of your personal account's repositories
+1. Klik foto profil Anda dan pilih Settings,
+2. Setelah itu click Account,
+3. Pilih "Successor settings", untuk mengundang username, nama lengkap, atau alamat email, lalu klik namanya saat muncul,
+4. Setelah muncul kemudian Click Add successor.
+5. Jika diminta konfirmasikan akses ke akun Anda di GitHub. Untuk informasi lebih lanjut anda bisa mengisinya sendiri,
+6. Pengguna yang Anda undang akan terdaftar sebagai "Pending" sampai mereka setuju untuk menjadi successor Anda.
+
 ### **Responsive Web Design**
 - Responsive Web Design Merupakan sebuah tehnik untuk membuat layout atau tampilan website yang kita buat dapat menyesuaikan diri dengan ukuran layar device dimana web kita dibuka. Baik dari ukuran huruf, user interface, gambar dan tata letak akan menyesuaikan dengan lebar layar dan resolusi device yan digunakan.
  - Add viewport in HTML
@@ -69,14 +87,14 @@ run(true);
   1. Membuat files css berbeda untuk masing - masing device
   2. Menggabungkan 1 files CSS untuk setting styling berbagai device 
 - Contoh penerapan media query 
-  ``` 
+  ```html
   @media screen and (max-width: 600px)
   ```
 - Breakpoint adalah perubahan yang terjadi pada tampilan tampilan saat berganti device atau ukuran width.
 - Terdapat 3 jenis breakpoint yaitu desktop, ipad/tablet, dan mobile phone
 - Penggunaan breakpoint pada media query dapat dilakukan dengan membuat range ukuran sesuai dengan tampilan device yang ingin dibuat
 - Contoh breakpoint dapat ditulis seperti ini
-  ```
+  ```html
   @media screen and (min-width: 500px) and (max-width: 700px) {
   body {
     background-color: grey 
