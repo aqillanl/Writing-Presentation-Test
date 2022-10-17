@@ -133,8 +133,7 @@ run(true);
     - Breakpoints pada bootstrap ada 5 yaitu sm, md, lg, xl dan xxl.
     - Setiap breakpoint dipilih untuk menampung container yang lebarnya 12 dengan sehingga tersusun rapi. Breakpoint juga mewakili subset ukuran perangkat umum dan
     dimensi area pandang.
- - Container adalah blok dasar atau pembungkus boostrap yang terdiri dari contain, pad dan align  yang menyelaraskan konten website dalam perangkat atau area      
-    pandang tertentu.
+ - Container adalah blok dasar atau pembungkus boostrap yang terdiri dari contain, pad dan align  yang menyelaraskan konten website dalam perangkat atau area    pandang tertentu.
    - Terdapat 3 container pada boostrap yaitu :
     - .container, yang menerapkan lebar maksimum pada setiap breakpoint responsif
     - .container-{breakpoint}, menerapkan lebar 100% sampai dengan breakpoint yang ditentukan.
@@ -158,7 +157,7 @@ run(true);
      </div>
    ```
 - Grid system bootstrap :
-  - .col-lg digunakan untuk mengatur grid pada ukuran monitor yang besar
+  - .col-lg digunakan untuk mengatur grid pada ukuran monitor yang besar 
   - .col-md digunakan pada monitor komputer berukuran sedang
   - .col-sm digunakan untuk mengatur monitor pada tablet
   - .col-xs digunakan untuk mengatur monitor pada handphone 
