@@ -21,10 +21,10 @@ Komunitas React JS dieluruh dunia sangat besar. Kebanyakan peruahaan teknologi p
 - **JSX**
   - JSX adalah sintaks yang digunakan untuk menuliskan kode React. JSX adalah gabungan dari HTML dan JavaScript. JSX memungkinkan kita untuk menuliskan kode React dengan lebih mudah dan cepat.
   - JSX Rules
-  1. Setiap JSX hanya bisa memiliki 1 parent element.
-  2. Memiliki DOM manipulation
-  3. Atribut class di tag HTML harus menggunakan className
-  4. Menggunakan curly braces untuk mengakses variabel JSX
+    1. Setiap JSX hanya bisa memiliki 1 parent element.
+    2. Memiliki DOM manipulation
+    3. Atribut class di tag HTML harus menggunakan className
+    4. Menggunakan curly braces untuk mengakses variabel JSX
   - Contoh JSX
     ```js
     import React from "react";
@@ -39,7 +39,7 @@ Komunitas React JS dieluruh dunia sangat besar. Kebanyakan peruahaan teknologi p
     export default App;
     ```
 - **Virtual DOM**
-  - Dengan DOM kita dapat berinteraksi seperti mengupdate data di web page, Virtual DOM aadalah duplikasi dari real DOM yang sebenarnya.
+  - Dengan DOM kita dapat berinteraksi seperti mengupdate data di web page, Virtual DOM adalah duplikasi dari real DOM yang sebenarnya.
 #### **Component**
 - **React Component**
   - React Component adalah sebuah fungsi atau kelas yang mengembalikan kode JSX. React Component memungkinkan kita untuk memisahkan kode JSX menjadi beberapa bagian yang lebih kecil. React Component memungkinkan kita untuk membuat komponen-komponen yang dapat digunakan kembali.
