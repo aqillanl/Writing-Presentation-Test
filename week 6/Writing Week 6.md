@@ -20,6 +20,11 @@ Komunitas React JS dieluruh dunia sangat besar. Kebanyakan peruahaan teknologi p
       - yarn (yarn create react-app my-app)
 - **JSX**
   - JSX adalah sintaks yang digunakan untuk menuliskan kode React. JSX adalah gabungan dari HTML dan JavaScript. JSX memungkinkan kita untuk menuliskan kode React dengan lebih mudah dan cepat.
+  - JSX Rules
+  1. Setiap JSX hanya bisa memiliki 1 parent element.
+  2. Memiliki DOM manipulation
+  3. Atribut class di tag HTML harus menggunakan className
+  4. Menggunakan curly braces untuk mengakses variabel JSX
   - Contoh JSX
     ```js
     import React from "react";
