@@ -5,11 +5,11 @@
 React.js adalah framework view library javascript yang dibuat oleh Facebook untuk membuat user interface. React.js memanfaatkan konsep komponen untuk membangun user interface.
 - Kenapa menggunakan React Js? <br>
 React Js is Fast.<br>
-React Js membuat aplikasi front-end menjadi lebih cepat walaupun harus menghandle berbagai data.
+React Js membuat aplikasi front-end menjadi lebih cepat walaupun harus menghandle berbagai data.<br>
 React Js is Modular.<br>
-Kita dapat menerapkan konsep Modular javascript pada React Js. React Js membagi 1 tampilan pada website menjadi komponen - komponen kecil.
+Kita dapat menerapkan konsep Modular javascript pada React Js. React Js membagi 1 tampilan pada website menjadi komponen - komponen kecil.<br>
 React JS is Scalable.<br>
-React JS dapat digunakan pada aplikasi berskala kecil hingga bear dan kompleks.
+React JS dapat digunakan pada aplikasi berskala kecil hingga bear dan kompleks.<br>
 React is Popular.<br>
 Komunitas React JS dieluruh dunia sangat besar. Kebanyakan peruahaan teknologi pun sudah menggunakan React JS.
 - **Instalasi React.js**
