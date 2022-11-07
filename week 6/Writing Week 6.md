@@ -5,11 +5,11 @@
 React.js adalah framework view library javascript yang dibuat oleh Facebook untuk membuat user interface. React.js memanfaatkan konsep komponen untuk membangun user interface.
 - Kenapa menggunakan React Js? <br>
 React Js is Fast.<br>
-React Js membuat aplikasi front-end menjadi lebih cepat walaupun harus menghandle berbagai data.
+React Js membuat aplikasi front-end menjadi lebih cepat walaupun harus menghandle berbagai data.<br>
 React Js is Modular.<br>
-Kita dapat menerapkan konsep Modular javascript pada React Js. React Js membagi 1 tampilan pada website menjadi komponen - komponen kecil.
+Kita dapat menerapkan konsep Modular javascript pada React Js. React Js membagi 1 tampilan pada website menjadi komponen - komponen kecil.<br>
 React JS is Scalable.<br>
-React JS dapat digunakan pada aplikasi berskala kecil hingga bear dan kompleks.
+React JS dapat digunakan pada aplikasi berskala kecil hingga bear dan kompleks.<br>
 React is Popular.<br>
 Komunitas React JS dieluruh dunia sangat besar. Kebanyakan peruahaan teknologi pun sudah menggunakan React JS.
 - **Instalasi React.js**
@@ -20,6 +20,11 @@ Komunitas React JS dieluruh dunia sangat besar. Kebanyakan peruahaan teknologi p
       - yarn (yarn create react-app my-app)
 - **JSX**
   - JSX adalah sintaks yang digunakan untuk menuliskan kode React. JSX adalah gabungan dari HTML dan JavaScript. JSX memungkinkan kita untuk menuliskan kode React dengan lebih mudah dan cepat.
+  - JSX Rules
+    1. Setiap JSX hanya bisa memiliki 1 parent element.
+    2. Memiliki DOM manipulation
+    3. Atribut class di tag HTML harus menggunakan className
+    4. Menggunakan curly braces untuk mengakses variabel JSX
   - Contoh JSX
     ```js
     import React from "react";
@@ -34,7 +39,7 @@ Komunitas React JS dieluruh dunia sangat besar. Kebanyakan peruahaan teknologi p
     export default App;
     ```
 - **Virtual DOM**
-  - Dengan DOM kita dapat berinteraksi seperti mengupdate data di web page, Virtual DOM aadalah duplikasi dari real DOM yang sebenarnya.
+  - Dengan DOM kita dapat berinteraksi seperti mengupdate data di web page, Virtual DOM adalah duplikasi dari real DOM yang sebenarnya.
 #### **Component**
 - **React Component**
   - React Component adalah sebuah fungsi atau kelas yang mengembalikan kode JSX. React Component memungkinkan kita untuk memisahkan kode JSX menjadi beberapa bagian yang lebih kecil. React Component memungkinkan kita untuk membuat komponen-komponen yang dapat digunakan kembali.
